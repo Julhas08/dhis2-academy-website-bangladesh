@@ -1,0 +1,79 @@
+
+body {
+   background-image: url("dhis2-academy-2.jpg");
+   background-color: #cccccc;
+}
+#container {
+    margin: 172px auto;
+    padding: 0px 38px 58px 36px;
+    width: 800px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.wrapper-box {
+    display: grid;
+    grid-gap: 8px;
+    color: #444;
+    margin-top: 3px;
+    margin-left: 1055px;
+}
+.dhis2-custom-script {
+    color: #0A408D;
+    border-radius: 5px;
+    height: 58px;
+    width: 234px;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #fff;
+    padding-top: 14px;
+    box-shadow: 0px 0px 5px #666;
+}
+.welcome-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 121px;
+}
+.academy-address{
+    font-size: 18px;
+    color:#1862AB;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-container:hover{
+  opacity: 0.3;
+}
+.left-box-hover:hover{
+    font-size: 18px;
+    color:#1862AB;
+}
+.dhis2-custom-script span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dhis2-custom-script span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dhis2-custom-script:hover span {
+  padding-right: 25px;
+}
+
+.dhis2-custom-script:hover span:after {
+  opacity: 1;
+  right: 0;
+}
